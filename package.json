@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/tiphedor/common-password-checker",
   "dependencies": {
-    "buffer-crc32": "^0.2.5"
+    "buffer-crc32": "^0.2.13"
   }
 }
