@@ -2,6 +2,10 @@ Original work by [__meehow__ ](https://github.com/meehow)at [meehow/common-passw
 
 [![npm version](https://badge.fury.io/js/common-password-checker.svg)](https://badge.fury.io/js/common-password-checker)
 
+**This list is not perfect!** It contains a _lot_ of simple, crappy passwords, but obviously not all of them. You should still use another form of password strengh evaluation, and consider this lib as a fist pass in a password validation process.
+
+**Fell free to open a PR adding more passwords to the list** ❤️
+
 # Installation
 
 ````bash
