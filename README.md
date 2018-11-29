@@ -1,25 +1,19 @@
-This package was inspired by an article "[10,000 Top Passwords](https://xato.net/passwords/more-top-worst-passwords/)" by [Mark Burnett](https://xato.net/author/mb/).
+Original work by [__meehow__ ](https://github.com/meehow)at [meehow/common-password](https://github.com/meehow/common-password) ; foked to update the password list.
 
-![Popular passwords](http://i.imgur.com/9OzTQVk.png)
 
-This package can be used as password requirement, but should be combined with length checking. Some passwords are not listed as popular because they don't meet length requirement in many systems. For example `1234` is listed as popular password, but `123` is not.
+# Installation
 
-Installation
-------------
+````bash
+yarn add common-password-checker
+# or
+npm i --save common-password-checker
+````
 
-```
-npm install common-password
-```
+# Usage
 
-Example
--------
+````javascript
+const commonPassword = require('common-password-checker')
 
-Check [example.js](./example.js).
-
-```
-$ node ./example.js passw0rd
-password is too easy to guess
-not OK
-$ node ./example.js eiGoh8ou
-OK
-```
+commonPassword('password') // returns true
+commonPassword('21da25b9602747af9a4b7d3d143aae91') // returns false
+````
