@@ -1,5 +1,6 @@
 Original work by [__meehow__ ](https://github.com/meehow)at [meehow/common-password](https://github.com/meehow/common-password) ; foked to update the password list.
 
+[![npm version](https://badge.fury.io/js/common-password-checker.svg)](https://badge.fury.io/js/common-password-checker)
 
 # Installation
 
