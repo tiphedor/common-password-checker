@@ -1,6 +1,6 @@
 {
-  "name": "common-password",
-  "version": "0.1.2",
+  "name": "common-password-checker",
+  "version": "0.1.0",
   "description": "Checks if given password is popular.",
   "main": "./lib/common-password.js",
   "scripts": {
@@ -9,21 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/meehow/common-password.git"
+    "url": "https://github.com/tiphedor/common-password-checker"
   },
   "keywords": [
     "password",
     "security"
   ],
   "author": {
-    "name": "Michał Adamski",
-    "email": "meehow808@gmail.com"
+    "name": "Martin STEFFEN",
+    "email": "mail@tiph.io"
   },
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/meehow/common-password/issues"
+    "url": "https://github.com/tiphedor/common-password-checker/issues"
   },
-  "homepage": "https://github.com/meehow/common-password",
+  "homepage": "https://github.com/tiphedor/common-password-checker",
   "dependencies": {
     "buffer-crc32": "^0.2.5"
   }
